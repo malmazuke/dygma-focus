@@ -1,0 +1,26 @@
+{
+  "name": "dygma-focus",
+  "version": "1.0.0",
+  "description": "The Dygma Focus API for communicating with Dygma Defy/Raise keyboards.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malmazuke/dygma-focus.git"
+  },
+  "keywords": [
+    "DygmaLabs",
+    "Dygma",
+    "Raise",
+    "Defy",
+    "Keyboard"
+  ],
+  "author": "Mark Feaver",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/malmazuke/dygma-focus/issues"
+  },
+  "homepage": "https://github.com/malmazuke/dygma-focus#readme"
+}

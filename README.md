@@ -1,5 +1,8 @@
-## Note
-This project is sourced from the original Focus API, found in the [DygmaLabs Bazecor](https://github.com/malmazuke/Bazecor/blob/development/src/api/focus/index.js) project itself. I have simply extracted the API itself into its own repo for reusability in other projects. Besides changes to get it working as its own library, the project remains unchanged from the original source.
+## Acknowledgments
+
+This project is derived from the Focus API originally developed by DygmaLabs as part of the [Bazecor](https://github.com/malmazuke/Bazecor) project. The original work is licensed under GPLv3.
+
+I have made no modifications to the original source code, besides those required to allow this to be packaged separately from Bazecor.
 
 # Focus API documentation
 
