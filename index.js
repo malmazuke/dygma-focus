@@ -15,11 +15,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import fs from "fs";
-import { spawn } from "child_process";
+const fs = require("fs");
+const { spawn } = require("child_process");
 
-const { SerialPort } = eval('require("serialport")');
-const { DelimiterParser } = eval('require("@serialport/parser-delimiter")');
+const SerialPort = require("serialport");
+const DelimiterParser = require("@serialport/parser-delimiter");
 
 global.focus_instance = null;
 
@@ -319,4 +319,4 @@ class Focus {
   }
 }
 
-export default Focus;
+module.exports = Focus;
