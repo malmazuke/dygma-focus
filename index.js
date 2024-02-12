@@ -18,8 +18,8 @@
 const fs = require("fs");
 const { spawn } = require("child_process");
 
-const SerialPort = require("serialport");
-const DelimiterParser = require("@serialport/parser-delimiter");
+const { SerialPort } = eval('require("serialport")');
+const { DelimiterParser } = eval('require("@serialport/parser-delimiter")');
 
 global.focus_instance = null;
 
